@@ -85,7 +85,44 @@ header nav ul li a {
     color:var(--tertitary-color);
     font-size: 10px;
     line-height: 1.2;
-    position:absolute;
+    position: relative;
     bottom: 0px;
     margin-left: 0px;
+}
+
+/* apply styles to about me */
+.intro {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.title {
+    width: 14%;
+    text-align: right;
+    margin: 2.5%;
+    color: var(--tertiary-color);
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.description {
+    color:var(--primary-color);
+    width:61%;
+    margin: 2.5%;
+    font-size: 18px;
+}
+
+.primary-border {
+    border-right-style: solid;
+    padding: 0px 10px 0px 10px;
+    color: var(--tertiary-color);
+}
+
+@media screen and (max-width: 575px) {
+    .primary-border {
+        border-right-style: none;
+    }
 }
