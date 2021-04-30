@@ -13,7 +13,7 @@
 /* apply styles to body */
 body {
     /* apply font color to entire page */
-    color:var(--tertiary-color);
+    color:var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -63,4 +63,29 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw; 
+}
+
+/* apply styles to hero */
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 100px;
+    color:var(--tertiary-color);
+}
+
+.hero-text {
+    width: 80%;
+    text-align: right;
+    margin: 3.5%;
+    color:var(--tertitary-color);
+    font-size: 10px;
+    line-height: 1.2;
+    position:absolute;
+    bottom: 0px;
+    margin-left: 0px;
 }
