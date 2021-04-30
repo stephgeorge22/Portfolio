@@ -108,7 +108,7 @@ header nav ul li a {
     line-height: 1.2;
 }
 
-.description {
+.info {
     color:var(--primary-color);
     width:61%;
     margin: 2.5%;
@@ -120,6 +120,11 @@ header nav ul li a {
     padding: 0px 10px 0px 10px;
     color: var(--tertiary-color);
 }
+
+
+
+
+/* media query */ 
 
 @media screen and (max-width: 575px) {
     .primary-border {
