@@ -29,8 +29,8 @@
 ## Screenshot:
 
 <img src="./assets/images/readme-1.JPG" alt="website top screenshot" />
-<img src=".assets/images/readme-2.JPG" alt="website middle screenshot" />
-<img src=".assets/images/readme-3.JPG" alt="website bottom screenshot" />
+<img src="./assets/images/readme-2.JPG" alt="website middle screenshot" />
+<img src="./assets/images/readme-3.JPG" alt="website bottom screenshot" />
 
 ## Link to Deployed Application:
 ### https://stephgeorge22.github.io/portfolio/
