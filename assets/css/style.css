@@ -105,7 +105,7 @@ header nav ul li a {
 .title {
     width: 14%;
     text-align: right;
-    margin: 2.5%;
+    margin: 2.5% 0%;
     color: var(--primary-color);
     font-size: 20px;
     line-height: 1.2;
@@ -116,13 +116,10 @@ header nav ul li a {
     width:61%;
     margin: 2.5%; 
     font-size: 18px;
-}
-
-.primary-border {
-    border-right-style:solid;
+    border-left-style:solid;
     padding: 0px 10px 0px 10px;
-    border-right-color:var(--tertiary-color) ;
-} 
+    border-left-color:var(--tertiary-color) ;
+}
 
 /* style work section */
 
