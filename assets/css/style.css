@@ -76,6 +76,7 @@ header nav ul li a {
     align-items: flex-start;
     padding: 100px;
     color:var(--primary-color);
+    position: relative;
 }
 
 .hero-text {
@@ -83,11 +84,13 @@ header nav ul li a {
     text-align: right;
     margin: 3.5%;
     color:var(--primary-color);
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.2;
-    position: relative;
     bottom: 0px;
     margin-left: 0px;
+    position: absolute;
+    bottom:0;
+    right:0;
 }
 
 /* apply styles to about me */
